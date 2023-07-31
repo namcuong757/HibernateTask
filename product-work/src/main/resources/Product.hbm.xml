@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="com.nam.product.product_work.Product" table="Product">
+        <id name="productID" column="prodId">
+        </id>
+        <property name="productName" column="prodName"/>
+        <property name="productPrice" column="prodPrice"/>
+        <property name="quantity" column="quantity"/>
+        <property name="productTax" column="prodTax"/>
+        <property name="totalPrice" column="totalPrice"/>
+    </class>
+</hibernate-mapping>
